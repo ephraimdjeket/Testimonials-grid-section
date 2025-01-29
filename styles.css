@@ -157,6 +157,7 @@ body {
 .testimonials {
   width: 100%;
 }
+
 .testimonials-container {
   gap: 1.5rem;
   grid-template-columns: repeat(8, 1fr);
@@ -164,6 +165,11 @@ body {
   max-width: 1110px;
   margin: 0rem;
 }
+
+.testimonial-description {
+  font-size: 1rem;
+}
+
 
 .testimonials-container .testimonials:nth-child(1) {
   grid-column: 1 / 5;
